@@ -1,0 +1,26 @@
+{
+  "name": "Basic-Angular-application",
+  "version": "1.0",
+  "authors": [
+    "Madhav kumar <madhavmahesh@gmail.com>"
+  ],
+  "description": "Getting started with full stack development.",
+  "moduleType": [
+    "amd"
+  ],
+  "license": "OWN",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+   "modernizr": "~2.8.3", 
+	"angular": "1.2.0-rc.1",
+    "bootstrap": "~3.0.0",  
+    "jquery": "~2.0.3"
+  }
+}

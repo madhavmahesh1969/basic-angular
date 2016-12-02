@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Insert title here</title>
+    <link rel="stylesheet"
+          href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+
+    
+
+</head>
+<body>
+
+	<div ng-app="customDirectiveApp">
+		<div ng-controller="customDirectiveCtrl">
+		<pre>
+			<code>
+				< element-Directive name="John">Custom directive : < /element-Directive>
+			</code>
+		</pre>
+			Example of element directive : <element-Directive name="John">Custom directive : </element-Directive>	<br>
+			Example of element directive : <element:Directive name="John">Custom directive : </element:Directive>	<br>
+			Example of element directive : <element_Directive name="John">Custom directive : </element_Directive>	<br>
+			Example of element directive : <data-element-Directive name="John">Custom directive : </data-element-Directive>	<br>			
+			Example of element directive : <x-element-Directive name="John">Custom directive : </x-element-Directive>	<br>			
+			Example of attribute directive : <div attribute-Directive name="John"></div><br>
+			
+			Example for elementScopeDirective <element-Scope-Directive nameAttribute="name"></element-Scope-Directive>
+		</div>
+	</div>
+	
+</body>
+    <script src="/bower_components/angular/angular.js"></script>
+	<script src="/app/app.js">		</script>
+
+</html>
